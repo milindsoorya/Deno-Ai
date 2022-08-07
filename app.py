@@ -42,7 +42,7 @@ def models():
         if option == '<select>':
             pass
         else:
-            path = os.path.join(os.getcwd(), 'NoisyImage/')
+            path = os.path.join(os.getcwd(), 'images/')
             nsy_img = cv2.imread(path+option+'.jpg')
             model_selector(nsy_img)
 
